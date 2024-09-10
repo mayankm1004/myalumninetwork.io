@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f9ff; /* Light blue background for the whole page */
+    color: #333; /* Dark text color for readability */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1, h2 {
+    color: #151616; /* Light blue color for headers */
+}
+
+h2{
+    font-style: bold;
+    font-weight: 10px;
+}
+/* Form container styles */
+form {
+    background-color: #ffffff; /* White background for the form */
+    padding: 20px;
+    border-radius: 10px; /* Curved corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow */
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Space between form elements */
+}
+
+/* Input styles */
+input, select {
+    padding: 10px;
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 5px; /* Curved corners */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+input:focus, select:focus {
+    border-color: #007bff; /* Blue border on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Light blue shadow on focus */
+    outline: none; /* Remove default outline */
+}
+
+/* Label styles */
+label {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Button styles */
+button {
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px; /* Curved button */
+    cursor: pointer;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Optional: Adding some padding to the form elements */
+.amount, .number, select {
+    width: 100%; /* Full width */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}

@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.image-container {
+    margin-bottom: 20px;
+    /* height: 400px;
+    width: 900px; */
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.taskbar {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.taskbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.taskbar ul li {
+    margin: 0 15px;
+}
+
+.taskbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.taskbar ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+.posts {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.posts h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.post {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.post h3 {
+    margin-top: 0;
+}
+
+.post p {
+    margin: 0;
+}

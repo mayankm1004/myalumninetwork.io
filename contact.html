@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles/contact.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>Contact Us</h1>
+            <nav class="nav-bar">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="job portal.html">Jobs</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="contact-info" class="contact-info">
+            <h2>Contact Information</h2>
+            <div class="contact-details">
+                <p><strong>Address:</strong> SATI vidisha,</p>
+                <p><strong>Phone:</strong> </p>
+                <p><strong>College site:</strong> </p>
+                <a target="" href="https://www.satiengg.in">https://www.satiengg.in</a>
+            </div>
+        </section>
+        <section id="contact-form" class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form action="/submit-message" method="post">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone">
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="6" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Job Portal. All rights reserved.</p>
+    </footer>
+</body>
+</html>
